@@ -1,0 +1,1 @@
+/* JavaScript powers the dynamic behavior on most websites */
