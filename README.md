@@ -10,15 +10,15 @@ The data stored on Techtonic's servers is sent through physical cables via a com
 
 ## What code is rendered in the browser?
 
-It can be plain HTML, or a combination of HTML, CSS, JavaScript, image files, video files, and other computer languages.
+HTML along with other files (image, video, etc). The HTML is typically styled using CSS and made interactive using JavaScript.
 
 ## What is the server-side code’s main function?
 
-To be available when a request is made to access that code and tell the client-side how and when it should be rendered.
+To be available when a request is made to access that code, deliver it securely, and tell the client-side how it should be rendered.
 
 ## What is the client-side code’s main function?
 
-To store and interpret the code and display it in a way that a human can view and/or interact with it.
+To interpret and display the code (via the BOM/DOM and browser) in a way that a human can view and/or interact with it.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
@@ -34,4 +34,4 @@ The length of time a program is being used.
 
 ## How many instances of the databases connected to the server application are created?
 
-Every time the database is accessed an instance is created.
+Multiple instances can exist, depending on how many requests are made that require new data.
